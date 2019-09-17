@@ -4,7 +4,7 @@
  * Course: CMIS 242 6383
  * Project Name: Project 3 (Iterative vs Recursive)
  * Filename: GUI.java
- * Updated: 9/17/19, 12:29 AM
+ * Updated: 9/17/19, 5:47 PM
  * Description: This program creates a simple calculator that calculates both the nth value in the sequence.
  * In addition, it calculates the efficiency of each method based of recursive calls or iterations.
  */
@@ -43,7 +43,7 @@ public class GUI implements ActionListener {
     private JTextField efficiency = new JTextField(5);
 
     //Private constructor to be called from the main method
-    private GUI() {
+    GUI() {
 
         //Ensures that the program terminates when the window is closed.
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
